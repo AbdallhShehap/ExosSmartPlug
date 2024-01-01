@@ -1,0 +1,48 @@
+#basic-navbar-nav{
+    margin-left: 50px;
+}
+
+.menuItem{
+    margin-left: 50px;
+}
+
+.no-arrow-dropdown .dropdown-toggle::after {
+    display: none;
+  }
+
+  
+  
+
+
+@media (min-width: 480px) {
+ 
+}
+
+/* Tablets */
+@media (min-width: 768px) {
+   
+}
+
+/* Small laptops */
+@media (min-width: 1024px) {
+}
+
+/* Desktops */
+@media (min-width: 1200px) {
+  
+}
+
+/* Large screens */
+@media (min-width: 1600px) {
+    #basic-navbar-nav{
+        margin-left: 80px;
+    }
+    
+    .menuItem{
+        margin-left: 70px;
+    }
+}
+/* Large screens */
+@media (min-width: 1920px) {
+   
+}

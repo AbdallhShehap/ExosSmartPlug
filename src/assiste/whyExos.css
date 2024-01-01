@@ -1,0 +1,61 @@
+p{
+    color: #5e5e5e;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imagWhyExos{
+    background-image: url("../images/smartplug.png");
+    
+}
+
+.lSide1 .lSide2 .lSide3{
+height: 130px;
+
+}
+
+
+.rSide1 .rSide2 .rSide3{
+height: 130px;
+
+}
+
+
+@media screen and (max-width: 400px) {
+ 
+
+    .lSide1 .lSide2 .lSide3{
+        height: 130px;
+        
+        }
+        
+        
+        .rSide1 .rSide2 .rSide3{
+        height: 150px;
+        
+        }
+        
+
+}
+
+
+
+.left .right{
+    height: 350px;
+    color: aqua;
+    
+}
+
+.delay-1s {
+    animation-delay: 1s;
+}
+
+.delay-2s {
+    animation-delay: 2s;
+}
+
+.delay-3s {
+    animation-delay: 3s;
+}
+.delay-4s {
+    animation-delay: 4s;
+}

@@ -1,0 +1,203 @@
+.imageContactus {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background-image: url(../images/High-Quality.jpg);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px; 
+}
+
+.titleContactus {
+    color: white; 
+    font-size: 4em; 
+    text-align: right; 
+    margin: 0; 
+    /* padding: 10px;  */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.contacttext{
+    margin-top: 100px;
+    padding-left: 20px;
+    color: #5E5E5E;
+    font-size: larger;
+    width: 100%;
+
+}
+
+
+@media screen and (max-width: 420px) {
+ 
+    .titleContactus {
+       
+        font-size: 2em; 
+    }
+
+
+
+    }
+@media screen and (min-width: 620px) {
+ 
+    .contacttext{
+padding: 20px;  
+  }
+
+
+
+    }
+
+@media screen and (min-width: 920px) {
+ 
+    .contacttext {
+padding-right:40px ;  
+  }
+    }
+    
+@media screen and (min-width: 1200px) {
+ 
+    .contacttext {
+        font-size: x-large;
+    }
+    }
+@media screen and (min-width: 1600px) {
+ 
+    .contacttext {
+        font-size: xx-large;
+    }
+    }
+    
+
+
+    /* ContactForm.module.css */
+.formContainer {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    /* background: #e5e5e5; */
+    border-radius: 8px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .input,
+  .textarea {
+    width: 100%;
+    padding: 5px;
+    border: 3px solid #ddd;
+    border-radius: 14px;
+    box-sizing: border-box;
+    font-size: 26px;
+    font-weight: 600;
+  }
+  
+  .textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: #0056b3;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #004494;
+  }
+  
+  @media (min-width: 768px) {
+    .formContainer {
+        width: 700px;
+        max-width: 700px;
+        
+    }
+  }
+ 
+ 
+  @media (min-width: 920px) {
+    .formContainer {
+        width: 680px;
+        max-width: 680px;
+     
+
+    }
+   
+  }
+ 
+ 
+  @media (min-width: 1180px) {
+    .formContainer {
+        width: 780px;
+        max-width: 780px;
+     
+
+    }
+   
+  }
+ 
+ 
+  @media (min-width: 1380px) {
+    .formContainer {
+        width: 800px;
+        max-width: 800px;
+     
+
+    }
+
+    .button {
+       
+        padding: 10px;
+     
+        font-size: 20px;
+     
+       
+      }
+   
+  }
+  
+ 
+  @media (min-width: 1700px) {
+    .formContainer {
+        width: 1400px;
+        max-width: 1400px;
+     
+        margin: auto ;
+
+    }
+
+    .button {
+       
+        padding: 25px;
+     
+        font-size: 28px;
+     
+       
+      }
+   
+      .formGroup {
+        margin-bottom: 46px;
+      }
+  }
+  

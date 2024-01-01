@@ -1,0 +1,47 @@
+.imageSlide{
+height:300px; 
+width:100% ;
+object-fit:cover
+}
+
+@media (min-width: 480px) {
+ 
+}
+
+/* Tablets */
+@media (min-width: 768px) {
+   
+}
+
+/* Small laptops */
+@media (min-width: 1024px) {
+    .imageSlide{
+        height:400px; 
+        width:100% ;
+        object-fit:cover
+        }
+}
+
+/* Desktops */
+@media (min-width: 1200px) {
+    .container {
+        /* CSS for screens wider than 1200px */
+    }
+}
+
+/* Large screens */
+@media (min-width: 1600px) {
+    .imageSlide{
+        height:400px; 
+        width:100% ;
+        object-fit:cover
+        }
+}
+/* Large screens */
+@media (min-width: 1920px) {
+    .imageSlide{
+        height:600px; 
+        width:100% ;
+        object-fit:cover
+        }
+}

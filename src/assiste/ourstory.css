@@ -1,0 +1,296 @@
+.imageOurStory {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background-image: url(../images/is2.jpg);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px; 
+}
+
+.titleOurStory {
+    color: white; 
+    font-size: 4em; 
+    text-align: right; 
+    margin: 0; 
+    /* padding: 10px;  */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.textOurStory{
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 10px;
+        font-family: 'Open Sans', sans-serif; 
+        color: #5E5E5E;
+        margin-bottom: 100px;
+
+}
+
+.textOurStory h3{
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: #5E5E5E;
+
+}
+
+.paraOurStory{
+    margin-top: 50px;
+    width: 100%;
+}
+.paraOurStory p{
+    margin-top: 30px;
+   
+}
+
+.anasSay{
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background-image: url(../images/Beautiful_Sunrise_Background-448.jpg);
+    height: 250px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px; 
+}
+
+.anasSaytext{
+    color: white;
+    
+    font-family: 'Open Sans', sans-serif; 
+    /* text-align: center; */
+    width: 90%;
+
+}
+
+.anasName{
+font-weight: 700;
+font-size: larger;
+}
+
+
+.badges img{
+
+    width: 200px;
+    height: auto;
+    padding: 10px;
+
+}
+
+.applation{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.anasSaytext p{
+    color: white;
+
+}
+
+
+
+
+.app-store{
+  
+}
+
+.google-play{
+ 
+}
+
+
+.app-store, .google-play {
+    transition: transform 0.5s ease;
+}
+
+.app-store:hover, .google-play:hover {
+    transform: scale(1.1);
+}
+
+
+@media screen and (min-width: 760px) {
+ 
+    .paraOurStory{
+        
+        width: 90%;
+    }
+
+    .anasSay{
+
+ 
+        padding: 30px; 
+    }
+
+    .anasSaytext p{
+        color: white;
+
+    }
+}
+
+
+@media screen and (min-width: 960px) {
+ 
+.textOurStory h3{
+padding-left: 10px;
+}
+
+    .paraOurStory{
+        padding-left: 10px;
+        width: 80%;
+    }
+
+    .anasSaytext{
+        font-size: larger;
+        font-weight: 500;
+        width: 800px;
+    
+    }
+
+    .anasSay{
+
+        justify-content: center;
+        
+    }
+
+
+    .badges img{
+
+        width: 300px;
+        height: auto;
+        padding: 10px;
+    
+    }
+    
+    .anasSaytext p{
+        color: white;
+
+    }
+    
+}
+
+
+
+
+@media screen and (min-width: 1400px) {
+ 
+    .anasSay{
+
+      
+        text-align: center;
+    }
+    
+    .anasSaytext{
+        color: white;
+        font-size:x-large;
+        font-family: 'Open Sans', sans-serif; 
+        /* text-align: center; */
+        width: 57rem;
+    
+    }
+
+    .anasSaytext p{
+        color: white;
+
+    }
+    
+    .anasName{
+    font-weight: 700;
+    font-size: xx-large;
+    text-align: end;
+    }
+    
+}
+
+
+
+
+
+@media screen and (min-width: 1600px) {
+ 
+.textOurStory h3{
+padding-left: 10px;
+font-size:xx-large;
+}
+
+    .paraOurStory{
+        padding-left: 10px;
+        width: 80%;
+        font-size: larger;
+
+    }
+
+    .badges img{
+
+        width: 400px;
+        height: auto;
+        padding: 10px;
+    
+    }
+    .anasSaytext p{
+        color: white;
+
+    }
+    
+}
+
+@media screen and (min-width: 1800px) {
+ 
+.textOurStory h3{
+font-size: 50px;
+}
+
+    .paraOurStory{
+        padding-left: 10px;
+        width: 80%;
+        font-size:x-large;
+
+    }
+
+    .anasSaytext{
+        color: white;
+        font-size:xx-large;
+        font-family: 'Open Sans', sans-serif; 
+        /* text-align: center; */
+        width: 60rem;
+    
+    }
+    .anasSaytext p{
+        color: white;
+
+    }
+
+    .anasName{
+    font-weight: 900;
+    font-size: 40px;
+    text-align: end;
+    }
+}
+
+@media screen and (max-width: 420px) {
+ 
+.titleOurStory {
+   
+    font-size: 2em; 
+   
+
+}
+.anasSaytext p{
+    color: white;
+
+}
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+  

@@ -1,0 +1,139 @@
+.imageTermOfUse {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background-image: url(../images/is3.jpg);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px; 
+}
+
+.titleTermOfUse {
+    color: white; 
+    font-size: 4em; 
+    text-align: right; 
+    margin: 0; 
+    /* padding: 10px;  */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.textTermOfUse{
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 10px;
+        font-family: 'Open Sans', sans-serif; 
+        color: #5E5E5E;
+        margin-bottom: 100px;
+
+}
+
+.textTermOfUse h3{
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: #5E5E5E;
+
+}
+
+.paraTermOfUse{
+    margin-top: 50px;
+    width: 100%;
+}
+.paraTermOfUse p{
+    margin-top: 30px;
+   
+}
+
+
+
+@media screen and (min-width: 760px) {
+ 
+    .paraTermOfUse{
+        
+        width: 90%;
+    }
+
+   
+
+
+}
+
+
+@media screen and (min-width: 960px) {
+ 
+.textTermOfUse h3{
+padding-left: 10px;
+}
+
+    .paraTermOfUse{
+        padding-left: 10px;
+        width: 80%;
+    }
+
+    
+ 
+    
+}
+
+
+
+
+@media screen and (min-width: 1400px) {
+ 
+
+    
+}
+
+
+
+
+
+@media screen and (min-width: 1600px) {
+ 
+.textTermOfUse h3{
+padding-left: 10px;
+font-size:xx-large;
+}
+
+    .paraTermOfUse{
+        padding-left: 10px;
+        width: 80%;
+        font-size: larger;
+
+    }
+    
+}
+
+@media screen and (min-width: 1800px) {
+ 
+.textTermOfUse h3{
+font-size: 50px;
+}
+
+    .paraTermOfUse{
+        padding-left: 10px;
+        width: 80%;
+        font-size:x-large;
+
+    }
+
+}
+
+@media screen and (max-width: 457px) {
+ 
+.titleTermOfUse {
+   
+    font-size: 2em; 
+   
+
+}
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+  

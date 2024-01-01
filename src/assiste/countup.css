@@ -1,0 +1,112 @@
+/* countup.css */
+.counterBox {
+    border: 2px solid #fff; 
+    padding: 10px; 
+    background-color: #000; 
+    border-radius: 10px; 
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    width: 100%;
+}
+  
+  .innerBox {
+    border: 2px solid #fff; 
+    padding: 10px;
+    border-radius: 18px; 
+    width: 99%;
+
+    display: inline-block; 
+  }
+  
+  .mainCounterBox {
+   
+    transform: scale(1);
+
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .mainCounterBox:hover {
+ 
+    transform: scale(1.1);
+  }
+  
+  
+  .para {
+    color: #fffefe;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; 
+  }
+  
+  .title, .subtitle{
+    color: #000000;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; 
+  }
+  .title{
+ margin-top: 100px;
+  }
+
+  .subtitle{
+ margin-bottom: 100px;
+  }
+
+  /* countup.css */
+.counterValue {
+    color: #fff; 
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 700
+
+  }
+  
+
+
+  @media (min-width: 759px) {
+   /* countup.css */
+.counterBox {
+  padding: 5px; 
+
+}
+
+ 
+}
+
+  @media (min-width: 992px) {
+   /* countup.css */
+.counterBox {
+  padding: 10px; 
+
+}
+
+ 
+}
+
+
+
+
+  
+  /* Add a font import at the top of your CSS file if you're using a Google Font or similar */
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+  
+
+  /* .para{
+     
+    font-size: 30px;
+  
+  } */
+
+
+/* @media (max-width: 900px) {
+    .para{
+     
+        font-size: 10px;
+      
+      }
+}
+
+@media (max-width: 493px) {
+    .para{
+     
+        font-size: 8px;
+      
+      }
+} */

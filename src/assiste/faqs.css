@@ -1,0 +1,88 @@
+.imageFaqs {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background-image: url(../images/is2.jpg);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px; 
+    margin-bottom: 100px;
+}
+
+.titleFaqs {
+    color: white; 
+    font-size: 4em; 
+    text-align: right; 
+    margin: 0; 
+    /* padding: 10px;  */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.containerOfFaq{
+    padding: 20px;
+}
+
+
+
+@media screen and (min-width: 760px) {
+
+   
+
+
+}
+
+
+@media screen and (min-width: 960px) {
+ 
+
+    
+ 
+    
+}
+
+
+
+
+@media screen and (min-width: 1400px) {
+ 
+
+    
+}
+
+
+
+
+
+@media screen and (min-width: 1600px) {
+ 
+
+    
+}
+
+@media screen and (min-width: 1800px) {
+ 
+.containerOfFaq{
+    text-align: center;
+    width: 80%;
+}
+.question{
+  text-align: start;
+}
+
+}
+
+@media screen and (max-width: 420px) {
+
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+  

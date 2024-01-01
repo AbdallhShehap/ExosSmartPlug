@@ -1,0 +1,9 @@
+.firstProductContainer{
+    background-image: url("https://images.prismic.io/kasasmart%2Fc7999ed1-6986-4bab-b959-08dc9688f2b0_kp303%28us%291.0-kasa+smart-spotlight-1906-english-final-banner.png?auto=compress,format&rect=0,246,3200,1039&w=1900&h=617");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
